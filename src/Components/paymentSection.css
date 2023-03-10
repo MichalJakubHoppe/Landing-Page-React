@@ -1,0 +1,96 @@
+.section-bottom-wrapper {
+    background-image: url("../images/section-bottom-bkg-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+  }
+  .section-bottom {
+    margin-top: 240px;
+    margin-bottom:120px;
+  
+  }
+  .section-bottom-article-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #091133;
+    margin-bottom: 0px;
+    max-width: 100%;
+  }
+  .section-bottom-article-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #6f7cb2;
+    max-width: 500px;
+    margin-top: 16px;
+  }
+  .section-bottom-price-number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #222f65;
+    margin-top: 35px;
+    margin-bottom: 0px;
+  }
+  .section-bottom-product-name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #37447e;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .section-bottom-button-motto {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #5d6970;
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+  .section-bottom-button-itself {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    background: #111b47;
+    border-radius: 5px;
+    width: 189px;
+    height: 32px;
+    margin-top: 10px;
+  }
+  .section-bottom,
+  .section-bottom-article,
+  .section-bottom-price,
+  .section-bottom-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width: 768px) {
+    .section-bottom-wrapper {
+        background-size: 150% 130%;
+        background-position: 50% 0%;
+      }
+}
+
+  

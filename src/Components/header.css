@@ -1,0 +1,149 @@
+
+.header {
+    background-image: url("../images/header-bkg-img.png");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: right 0% bottom 0%;
+  }
+  .flex-for-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-bar-bullet-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .nav-bar-bullet-wrapper p {
+    margin-right: 10px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505f98;
+  }
+  .header-title {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447e;
+  }
+  .nav-btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    background: #111b47;
+    border-radius: 5px;
+    padding: 5px 50px;
+  }
+  .section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 245px;
+    margin-bottom: 160px;
+  }
+  .section-1-article {
+    max-width: 50%;
+  }
+  .section-1-img {
+    max-width: 40%;
+    margin-right: -12.5%;
+  }
+  .section-1-title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #091133;
+  }
+  .section-1-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505f98;
+  }
+  .section-1-btns {
+    display: flex;
+    flex-direction: row;
+  }
+  .section-1-btns > .section-1-btns-purchase {
+    background: #111b47;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    height: 36px;
+    width: 189px;
+    margin-right: 30px;
+    border-radius: 5px;
+  }
+  .section-1-btns > .section-1-btns-purchase:hover {
+    background: #444758;
+  }
+  .section-1-btns > .section-1-btns-learn-more {
+    background-color: transparent;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #091133;
+    height: 36px;
+    width: 189px;
+    border-radius: 5px;
+  } 
+  .section-1-btns > .section-1-btns-learn-more:hover {
+    background: rgb(155, 154, 154);
+  }
+  @media screen and (max-width: 768px) {
+    .section-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      max-width: 100%;
+      margin-top: 0;
+    }
+    .section-1-article {
+      max-width: 60%; 
+    }
+    .section-1-title {
+      max-width: 440px;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 1px;
+      color: #091133;
+    }
+    .section-1-btns{
+      display:flex;
+      justify-content: space-between;
+    }
+    .section-1-btns button {
+      margin-top:20px;
+    }
+    .section-1-img {
+      max-width: 40%;
+      margin-right: -5%;
+    }
+    .nav-btn {
+      padding: 5px 10px;
+    }
+  }
