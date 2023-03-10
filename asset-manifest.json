@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/landing-page-react/static/css/main.256bbff2.css",
+    "main.js": "/landing-page-react/static/js/main.44d68d62.js",
+    "static/media/section-1-img.png": "/landing-page-react/static/media/section-1-img.0447ca75d9865a449b8b.png",
+    "static/media/modalpic.jpg": "/landing-page-react/static/media/modalpic.7be3fff2f8ddb8b1f838.jpg",
+    "static/media/section-4-img.png": "/landing-page-react/static/media/section-4-img.e671ff9ffd38ac6e4a19.png",
+    "static/media/section-5-img.png": "/landing-page-react/static/media/section-5-img.b7e6e12b6e0e1ac00629.png",
+    "static/media/section-3-img.png": "/landing-page-react/static/media/section-3-img.c5093ab582ce3f517391.png",
+    "static/media/section-2-img.png": "/landing-page-react/static/media/section-2-img.e65fce5cc26117548a3a.png",
+    "static/media/header-bkg-img.png": "/landing-page-react/static/media/header-bkg-img.ae8f0e40360001bf30a3.png",
+    "static/media/section-bottom-bkg-img.png": "/landing-page-react/static/media/section-bottom-bkg-img.596b8efdc6434c31f27f.png",
+    "index.html": "/landing-page-react/index.html",
+    "main.256bbff2.css.map": "/landing-page-react/static/css/main.256bbff2.css.map",
+    "main.44d68d62.js.map": "/landing-page-react/static/js/main.44d68d62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.256bbff2.css",
+    "static/js/main.44d68d62.js"
+  ]
+}
